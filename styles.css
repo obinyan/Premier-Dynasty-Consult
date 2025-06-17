@@ -114,7 +114,7 @@ body {
 
 .hamburger {
     display: none;
-    font-size: 34px;
+    font-size: 35px;
     cursor: pointer;
 }
 
@@ -583,7 +583,7 @@ form .btn:hover {
     .hamburger {
         display: block;
         position: absolute;
-        left : 335px;
+        left : 300px;
         top: 20px;
     }
 
