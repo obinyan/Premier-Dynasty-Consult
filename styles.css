@@ -121,7 +121,11 @@ body {
 /*Hero section*/
 .hero-section {
     padding: 120px 0px 0px 50px;
-    
+    background-image: url('poster\ 3.jpg'); /* Replace with your image path */
+    background-size: cover;       /* Cover the entire container */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat;
+    background-color: #fff;
     /*max-width: 1200px;*/
     margin: 0;
     display: flex;
@@ -130,23 +134,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     color: #111;
-}
-
-.hero-section::before {
-    content: "";
-    background-image: url('poster\ 3.jpg'); /* Replace with your image path */
-    background-size: cover;       /* Cover the entire container */
-    background-position: center;  /* Center the image */
-    background-repeat: no-repeat;
-    background-color: #fff;
-    filter: blur(8px); /* Adjust the blur intensity */
-    z-index: -1;
-    transform: scale(1.05); /* Prevents edges from showing */
-}
-
-.hero-section * {
-    position: relative;
-    z-index: 2;
 }
 
 .hero-section h3 {
