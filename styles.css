@@ -120,20 +120,47 @@ body {
 
 /*Hero section*/
 .hero-section {
-    padding: 120px 0px 0px 50px;
-    background-image: url('poster\ 3.jpg'); /* Replace with your image path */
-    background-size: cover;       /* Cover the entire container */
-    background-position: center;  /* Center the image */
-    background-repeat: no-repeat;
-    background-color: #fff;
-    /*max-width: 1200px;*/
-    margin: 0;
+    position: relative;
+    padding: 4rem 2rem;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
-    min-height: 100vh;
-    color: #111;
+    align-items: flex-start;
+    color: white;
+    overflow: hidden;
+}
+
+/* Blurred background image */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('poster\ 3.jpg'); /* Make sure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    transform: scale(1.1); /* Slight zoom to avoid blur edge */
+    z-index: -1;
+}
+
+/* Ensure text content stays sharp and visible */
+.hero-section > div {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    z-index: -1;
 }
 
 .hero-section h3 {
