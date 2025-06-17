@@ -136,6 +136,18 @@ body {
     color: #111;
 }
 
+.hero-section::before {
+    content: "";
+    filter: blur(8px); /* Adjust the blur intensity */
+    z-index: -1;
+    transform: scale(1.05); /* Prevents edges from showing */
+}
+
+.hero-section * {
+    position: relative;
+    z-index: 2;
+}
+
 .hero-section h3 {
     font-size: 16px;
     text-transform: uppercase;
