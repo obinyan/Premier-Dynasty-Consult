@@ -386,7 +386,7 @@ body {
 /*Project section*/
 .projects {
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 80px 60px;
     box-sizing: border-box;
     background-color: #fafafa;
@@ -473,7 +473,7 @@ body {
     padding: 80px 60px;
     box-sizing: border-box;
     background-color: #f9f9f9;
-    min-height: 100vh;
+    min-height: 90vh;
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -606,12 +606,12 @@ form .btn:hover {
 
     .about {
         position: static;
-        margin: 2rem auto;
+        margin: 2rem auto 0 auto;
         max-width: 90%;
     }
 
     .service {
-        padding: 100px 30px;
+        padding: 50px 30px 20px 30px;
     }
 
     .projects {
