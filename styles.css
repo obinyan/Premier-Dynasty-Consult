@@ -379,6 +379,10 @@ body {
     border-bottom: 1px solid #333;
 }
 
+.image-row{
+    display: none;
+}
+
 /*Project section*/
 .projects {
     width: 100%;
@@ -686,6 +690,23 @@ form .btn:hover {
 
     .service-container {
         grid-template-columns: 1fr;
+    }
+
+    .service-image{
+        display: none;
+    }
+
+    .image-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .image-item img{
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
     }
 
     .footer-content {
