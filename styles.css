@@ -669,8 +669,9 @@ form .btn:hover {
     .hamburger {
         display: block;
         position: absolute;
-        left : 300px;
+        left : 315px;
         top: 20px;
+        font-size: 35px;
     }
 
     .hero-section {
