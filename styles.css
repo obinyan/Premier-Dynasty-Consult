@@ -670,8 +670,8 @@ form .btn:hover {
     }
 
     .hero-section {
-        margin: 0 1rem;
-        /*padding-top: 100px;*/
+        margin: 0;
+        padding: 0;
         align-items: center;
         text-align: center;
     }
