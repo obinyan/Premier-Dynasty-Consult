@@ -251,6 +251,7 @@ body {
 .about-note h3 {
     font-size: 16px;
     margin-bottom: 8px;
+    width: 200px;
 }
 
 .about-note p {
