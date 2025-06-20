@@ -167,6 +167,7 @@ body {
 .hero-section h1 {
     font-size: 40px;
     font-weight: 700;
+    word-spacing: -5px;
     margin-bottom: 20px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -670,8 +671,8 @@ form .btn:hover {
         display: block;
         position: absolute;
         left : 315px;
-        top: 20px;
-        font-size: 35px;
+        top: 8px;
+        font-size: 50px;
         color: #fff;
     }
 
@@ -718,7 +719,7 @@ form .btn:hover {
     }
 
     .icons {
-        /*gap: 20px;*/
+        gap: 20px;
         justify-content: center;
     }
 
