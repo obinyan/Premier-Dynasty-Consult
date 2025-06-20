@@ -735,6 +735,7 @@ form .btn:hover {
 
     .hero-section p {
         font-size: 15px;
+        width: 400px;
     }
 
     .btn, 
