@@ -248,6 +248,11 @@ body {
     margin-bottom: 12px;
 }
 
+.about-note h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
 .about-note p {
     font-size: 14px;
     line-height: 1.6;
